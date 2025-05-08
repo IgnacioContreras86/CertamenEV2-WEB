@@ -1,0 +1,5 @@
+cp ../rubrica/rubrica.test.ts rubrica.test.ts
+echo "export default app" >> index.js
+
+npm install -D vitest @vitest/ui supertest
+npx vitest --watch --ui

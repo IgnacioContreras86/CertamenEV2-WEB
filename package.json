@@ -1,0 +1,15 @@
+{
+	"name": "taskmaster-pro",
+	"version": "1.0.0",
+	"description": "Sistema integral de gestión de tareas y usuarios con API REST",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.21.2",
+		"valibot": "^1.1.0"
+	}
+}
